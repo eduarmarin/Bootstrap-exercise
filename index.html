@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
     
 </head>
 <body>
@@ -36,11 +39,68 @@
         </div>
     </nav>    
     <section class="hero alig-items-stretch">
-        <div>
-            <img src="images/edaur.jpeg" alt="profile pic" style="width: 260px; height: 250px; object-fit: cover; object-position: 20% 0;">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center" >
+            <img class="hero-image" src="images/edaur.jpeg" alt="profile pic" style="width: 225px; height: 210px; object-fit: cover; object-position: 20% 0;">
             <h1>Hi, This is Eduar!</h1>
             <h2>Studying web developer at The Odin Project</h2>
         </div>
+        <div class="hero-inferior">
+          <!-- <img class="hero-img-inferior img-fluid" src="images/imagen.svg" alt="monitor"> -->
+          <object class="hero-img-inferior img-fluid" data="images/logos.svg" width="800" height="800"> </object>
+        </div>
+    </section>
+    <section class="about-me dark-section">
+      <div class="container">
+        <h2 class="tittle-section white-text">About me</h2>
+        <p class="text-section">Mecahtronic engineer, from Colombia by now living in Spain; learning programming at The Odin Project, improoving coding at html, CSS, JavaScript, Git and GitHub(eduarmarin), Bootstrap and React!</p>
+      </div>
+    </section>
+    <section class="experience light-section">
+      <div class="container text-center">
+        <div class="row">
+          <!-- teacher-->
+          <div class="columna col-12 col-md-4">
+            <div>
+              <i class="bi bi-book-half"></i>
+            </div>
+            <p class="experience-tittle">Teacher</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere tincidunt quam et blandit. Quisque sit amet mauris ac risus ornare auctor at at mi</p>
+            <div class="badges-container">
+              <span class="badge rounded-pill text-bg-primary">Team Work</span>
+              <span class="badge rounded-pill text-bg-primary">Puntuality</span>
+              <span class="badge rounded-pill text-bg-primary">Learn</span>
+              <span class="badge rounded-pill text-bg-primary">Teach</span>
+            </div>
+          </div>
+          <!-- developer-->
+          <div class="columna col-12 col-md-4">
+            <div>
+              <i class="bi bi-laptop-fill"></i>
+            </div>
+            <p class="experience-tittle">Web developer</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere tincidunt quam et blandit. Quisque sit amet mauris ac risus ornare auctor at at mi</p>
+            <div class="badges-container">
+              <span class="badge rounded-pill text-bg-primary">HTML</span>
+              <span class="badge rounded-pill text-bg-primary">CSS</span>
+              <span class="badge rounded-pill text-bg-primary">JavaScript</span>
+              <span class="badge rounded-pill text-bg-primary">React</span>
+            </div>
+          </div>
+          <!-- studying-->
+          <div class="columna col-12 col-md-4">
+            <div>
+              <i class="bi bi-eyeglasses"></i>
+            </div>
+            <p class="experience-tittle">Student</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere tincidunt quam et blandit. Quisque sit amet mauris ac risus ornare auctor at at mi</p>
+            <div class="badges-container">
+              <span class="badge rounded-pill text-bg-primary">TheOdinProject</span>
+              <span class="badge rounded-pill text-bg-primary">Online</span>
+              <span class="badge rounded-pill text-bg-primary">Projects</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
