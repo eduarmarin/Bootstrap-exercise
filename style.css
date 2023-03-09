@@ -245,12 +245,13 @@ h1{
 .link-studyg{
     width: 100px;
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 500px){
     .studying-imagen{
         height: 100px;
         width: 100px;
     }
     .studying-text{
-        font-size: 10px;
+        font-size: 12px;
+        width: 80%;
     }
 }
