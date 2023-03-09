@@ -46,6 +46,11 @@ h1{
     background-color:white;
     color: #1b1b32 ;
 } 
+.btn-info{
+    font-size: 10rem;
+    margin: 20px;
+    font-weight: bold; 
+}
                                    /* hero section */
 
 .hero-image{
@@ -121,7 +126,7 @@ h1{
 }
                                   /* projects section */
 .recently-projects{
-    padding: 40px;
+    padding: 20px;
 }                 
 .description-section{
     font-size: 1.2rem;
@@ -173,5 +178,80 @@ h1{
     color: black ;
     font-size: 40px;
     margin: 10px;
-    
+}
+@media screen and (max-width: 400px){
+    .overlay p {
+        font-size: 18px;
+    }
+    .overlay i {
+        font-size: 40px;
+    }
+}
+                                  /* Article section */
+.articles{
+    min-height: 500px;
+    padding: 30px;
+}
+.articles .card{
+    width: 80%;
+    max-width: 550px;
+    margin: 20px;
+}               
+.card-header{
+    font-weight: bold;
+}                   
+                                  /* Carousel section */
+.studying{
+    padding: 80px 40px 80px 40px;
+}
+.carousel-item img{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: greenyellow;
+}
+.studying-imagen {
+    height: 150px;
+    width: 200;
+    margin: 30px 10px 30px 10px;
+}
+.studying-text{
+    max-width: 100%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}
+.studying-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.link-studyg{
+    width: 100px;
+}
+@media screen and (min-width: 700px){
+    .studying-imagen{
+        height: 100px;
+        width: 100px;
+    }
+    .studying-text{
+        font-size: 18px;
+    }
 }
