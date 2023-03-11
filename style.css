@@ -304,8 +304,14 @@ footer{
     min-height: 350px;
 }
 .footer-icon{
-    font-size: 2rem;
-    margin-bottom: 40px;
+    width: 75px;
+    height: 75px;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    border-radius: 50%;
 }
 .footer-text{
     font-size: 1.5rem;
@@ -336,4 +342,9 @@ footer{
 }
 .redes-icon a:hover i{
     color: black;
+}
+.copy-right{
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
 }
